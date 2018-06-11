@@ -7,7 +7,7 @@
 
 # Site settings
 title: mio4
-brief-intro: Java Web & Web Security
+brief-intro: Try to change something
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mio4.github.io" # the base hostname & protocol for your site
 
