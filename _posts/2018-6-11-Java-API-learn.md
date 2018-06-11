@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "My first demo"
-categories: SnakeSon
-tags:  Ubuntu Pycharm 
+categories: Java Demo
+tags:  MyJava 
 author: SnakeSon
 ---
 
