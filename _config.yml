@@ -7,23 +7,23 @@
 
 # Site settings
 title: mio4
-brief-intro: Android and Python Coder
+brief-intro: Java Web & Web Security
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mio4.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: #gaohaoyang126
-facebook_username: #gaohaoyang.water
-github_username:  643435675
+twitter_username: #None
+facebook_username: #None
+github_username:  mio4
 email: 4611524655@QQ.com
-weibo_username: 3115521wh
-zhihu_username: hll643435675
-linkedIn_username: gaohaoyang
+weibo_username: None
+zhihu_username: mio4
+linkedIn_username: None
 dribbble_username:
 
-description_footer: footer的话应该在底部
+description_footer: footer的话应该在底�?
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -34,7 +34,7 @@ disqus_shortname: #gaohaoyang
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
-# xxxxx字符串
+# xxxxx字符�?
 baidu_tongji_id: 1cc1fc4b4b456bf7c99ce80aec5bf009
 google_analytics_id: UA-72449510-4 # google 分析追踪id
 
