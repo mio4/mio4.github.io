@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ubuntu16.04设置Pycharm桌面快捷键"
+title:  "My first demo"
 categories: SnakeSon
 tags:  Ubuntu Pycharm 
 author: SnakeSon
