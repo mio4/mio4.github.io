@@ -2,7 +2,7 @@
 layout: post
 title:  "操作系统理论课程总结"
 categories: 操作系统  
-tags:  操作系统
+tags:  Course OS
 author: mio4
 ---
 
