@@ -16,10 +16,9 @@ type: page
 ## 联系我
 
 * GitHub：[mio4](https://github.com/mio4)
+* 知乎：[mio4](https://www.zhihu.com/people/mio4/activities)
+* 博客园: [mio4](http://www.cnblogs.com/Hooooober/)
 * email：461152465@qq.com
-* [知乎](https://www.zhihu.com/people/mio4/activities)：mio4
-* [博客园](http://www.cnblogs.com/Hooooober/)
-
 
 ## 友情链接
 
