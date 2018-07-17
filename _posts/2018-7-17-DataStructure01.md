@@ -12,8 +12,12 @@ author: mio4
 
  
 
+
+
 > - 栈是一个先进后出(FILO)的数据结构。往箱子里放盘子是一个典型的栈模型，后放入的盘子会先被取出来
 > - 队列是一个先进先出(FIFO)的数据结构。例如生活中的各种排队模型。
+ 
+
 ## （一）栈的数组实现
 ```c
 #include <stdio.h>
@@ -58,7 +62,12 @@ void printStack(Stack *s){
 
 int main(void){
     int x;
-    Stack s = {{1,2,3},2};
+    Stack s;
+    //初始化
+    s.data[0] = 1;
+    s.data[1] = 2;
+    s.data[2] = 3;
+    s.top = 2;
     push(&s,4);
     pop(&s,&x);
     printf("pop = %d\n",x);
@@ -144,6 +153,7 @@ int main(void){
 
 ## （三）简单队列数组实现
  - 简单队列的不足：不断入队、出队之后，front和rear“指针”会不断后移，最后队列虽然没有满但是无法再添加元素
+
 ```c 
 #include <stdio.h>
 #include <stdlib.h>
