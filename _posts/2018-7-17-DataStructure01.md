@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "数据结构基础(1)：栈和队列"
-categories: DataStructure  
+categories: 数据结构
 tags:  C DataStructure
 author: mio4
 ---
@@ -16,7 +16,7 @@ author: mio4
 
 > - 栈是一个先进后出(FILO)的数据结构。往箱子里放盘子是一个典型的栈模型，后放入的盘子会先被取出来
 > - 队列是一个先进先出(FIFO)的数据结构。例如生活中的各种排队模型。
- 
+
 
 ## （一）栈的数组实现
 ```c

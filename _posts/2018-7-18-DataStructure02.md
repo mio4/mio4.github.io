@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "数据结构基础(2)：链表"
-categories: DataStructure  
+categories: 数据结构  
 tags:  C DataStructure
 author: mio4
 ---
