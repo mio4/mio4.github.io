@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java并发编程笔记(1)：多线程入门介绍"
-categories: Concurrency  
+categories: Java多线程
 tags:  Java Concurrency
 author: mio4
 ---
