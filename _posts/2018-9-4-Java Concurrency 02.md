@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java并发编程笔记(2)：线程创建和运行"
-categories: Concurrency  
+categories: Java多线程  
 tags:  Java Concurrency
 author: mio4
 ---
