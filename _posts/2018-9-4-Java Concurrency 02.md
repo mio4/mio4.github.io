@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java并发编程笔记(2)：线程创建和运行"
-categories: Java多线程  
+categories: Concurrency  
 tags:  Java Concurrency
 author: mio4
 ---
@@ -99,7 +99,22 @@ author: mio4
 
 ![线程状态转换图](http://peh5n2dsb.bkt.clouddn.com/ThreadState.png)
 
-## （二）wait()和notify()方法
+ - 关于Waiting状态和Blocked状态的区别
+   - Waiting表示线程don't want to be active
+   - Blocked表示线程want to be active but can't 
+
+## （二）创建启动线程
+ 
+  - 创建线程有两种方式
+    - extends Thread：继承Thread类
+    - implements Runnable：实现Runnable接口
+  - 其中第二种方式相对更好 
+    - Java不同于C++，是单继承，继承是一种宝贵的资源，但是是可以实现多接口的
+    - Thread类构造方法有Thread(Runnable target)，也就是实现Runnable接口的类产生新的线程，更容易实现资源共享
+  - 线程启动方式为threadObject.start()
+   - 不能直接调用run()方法，因为run方法并不会单独开启一个线程  
+
+## （三）wait()和notify()方法
  - Thread.sleep()方法不会释放任何资源
  - 对于一个Object对象
    - 线程执行object.wait()方法会让这个对象进入等待队列，同时释放掉这个对象的锁，当前线程进入等待状态
@@ -108,11 +123,11 @@ author: mio4
  - wait()和notify()方法是线程之间通信的有效手段 
  - notifyAll()方法会唤醒所有线程
 
-## （三）废弃方法
+## （四）废弃方法
  - Thread.stop()：强制结束线程，可能会对读写数据有严重影响
  - Thread.suspend()和Thread.resume()：线程挂起和恢复，因为Thread.suspend()之后线程还是处于RUNNABLE状态并且不会释放自己资源的锁，所以可能造成系统死锁，不推荐使用
 
-## （四）join()方法
+## （五）join()方法
 
 ```java 
 package testJoin;
