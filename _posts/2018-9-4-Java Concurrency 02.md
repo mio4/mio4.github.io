@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java并发编程笔记(2)：线程创建和运行"
-categories: Concurrency  
+categories: Java多线程
 tags:  Java Concurrency
 author: mio4
 ---
@@ -104,7 +104,7 @@ author: mio4
    - Blocked表示线程want to be active but can't 
 
 ## （二）创建启动线程
- 
+
   - 创建线程有两种方式
     - extends Thread：继承Thread类
     - implements Runnable：实现Runnable接口
