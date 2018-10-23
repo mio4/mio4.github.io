@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：字符串的排列"
+title:  "字符串的排列"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

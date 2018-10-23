@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：二叉搜索树的后序遍历序列"
+title:  "二叉搜索树的后序遍历序列"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

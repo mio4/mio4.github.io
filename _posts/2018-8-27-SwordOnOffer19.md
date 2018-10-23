@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：翻转单词顺序列"
+title:  "翻转单词顺序列"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

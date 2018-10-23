@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "剑指Offer面试题：二维数组中的查找"
-categories: 剑指Offer  
+title:  "二维数组中的查找"
+categories: 剑指Offer
 tags:  DataStructure Offer 
 author: mio4
 ---

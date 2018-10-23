@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：和为S的两个数字"
+title:  "和为S的两个数字"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

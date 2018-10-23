@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：从上往下打印二叉树"
+title:  "从上往下打印二叉树"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

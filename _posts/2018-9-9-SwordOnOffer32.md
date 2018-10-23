@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：整数中1出现的次数"
+title:  "整数中1出现的次数"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

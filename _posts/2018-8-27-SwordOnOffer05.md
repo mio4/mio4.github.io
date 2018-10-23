@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：旋转数组的最小数字"
+title:  "旋转数组的最小数字"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

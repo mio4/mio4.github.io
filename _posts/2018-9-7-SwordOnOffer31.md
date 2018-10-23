@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：调整数组顺序使奇数位于偶数前面"
+title:  "调整数组顺序使奇数位于偶数前面"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

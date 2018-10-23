@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题： 二叉树的镜像"
+title:  " 二叉树的镜像"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4
@@ -34,7 +34,7 @@ author: mio4
     	 / \  / \
     	11 9 7  5
 		
-		
+​		
 **分析**
 
  - 这道题Wrong了几次，是因为没有考虑到空树的情况导致了NullPointerException

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：数值的整数次方"
+title:  "数值的整数次方"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

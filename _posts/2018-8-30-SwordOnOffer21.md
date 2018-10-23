@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：滑动窗口的最大值"
+title:  "滑动窗口的最大值"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

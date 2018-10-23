@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：斐波那契数列 | 跳台阶 | 矩形覆盖"
+title:  "斐波那契数列 | 跳台阶 | 矩形覆盖"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4
@@ -78,7 +78,7 @@ public class Solution {
 
 **分析**
 就是斐波那契数列套上了一个故事模型而已：
- 
+
   - 第一次跳1级，剩下的有F(n-1)种跳法
   - 第一次跳2级，剩下的有F(n-2)种跳法
 

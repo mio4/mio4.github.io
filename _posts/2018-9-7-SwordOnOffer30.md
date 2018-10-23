@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：表示数值的字符串"
+title:  "表示数值的字符串"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

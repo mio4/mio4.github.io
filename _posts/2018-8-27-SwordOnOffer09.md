@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：链表中倒数第k个结点"
+title:  "链表中倒数第k个结点"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

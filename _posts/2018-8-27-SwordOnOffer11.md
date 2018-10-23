@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：合并两个排序的链表"
+title:  "合并两个排序的链表"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：连续子数组的最大和"
+title:  "连续子数组的最大和"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

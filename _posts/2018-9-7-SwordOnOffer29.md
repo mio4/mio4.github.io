@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：正则表达式匹配"
+title:  "正则表达式匹配"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

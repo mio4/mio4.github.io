@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：序列化二叉树"
+title:  "序列化二叉树"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

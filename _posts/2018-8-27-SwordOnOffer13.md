@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题： 顺时针打印矩阵"
+title:  "顺时针打印矩阵"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4
@@ -152,4 +152,4 @@ public class Solution {
  - 看了一下《剑指Offer》上的解法，书上的解法和上面AC的差不多
  - 但是书中对于最后一圈打印时分出了三种情况
    - 我是使用count变量计数到m*n就结束打印
-    
+   

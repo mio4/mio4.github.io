@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：机器人的运动范围"
+title:  "机器人的运动范围"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

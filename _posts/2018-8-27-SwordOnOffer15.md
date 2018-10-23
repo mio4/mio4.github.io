@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：栈的压入、弹出序列"
+title:  "栈的压入、弹出序列"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

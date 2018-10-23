@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：  包含min函数的栈"
+title:  " 包含min函数的栈"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

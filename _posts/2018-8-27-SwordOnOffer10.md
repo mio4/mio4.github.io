@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：反转链表"
+title:  "反转链表"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

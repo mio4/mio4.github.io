@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：二叉树的深度"
+title:  "二叉树的深度"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

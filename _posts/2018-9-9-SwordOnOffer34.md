@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：把数组排成最小的数"
+title:  "把数组排成最小的数"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

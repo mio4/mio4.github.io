@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "剑指Offer面试题：扑克牌顺子"
+title:  "扑克牌顺子"
 categories: 剑指Offer  
 tags: DataStructure Offer 
 author: mio4

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "剑指Offer面试题：替换空格"
-categories: 剑指Offer  
+title:  "替换空格"
+categories: 剑指Offer
 tags: DataStructure Offer 
 author: mio4
 ---
