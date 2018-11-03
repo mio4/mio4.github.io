@@ -27,6 +27,8 @@ author: mio4
 >
 > 一个HashMap的源码就有两千多行，如果是一行一行， 不从整体上去把握，就算花了很多时间把Utils包和并发包读完了，估计等一段时间就会忘得差不多了。
 >
+> 阅读源码，要从整体和细节上观察：
+>
 > （1）剖析数据结构
 >
 > （2）把握设计模式
@@ -53,23 +55,25 @@ author: mio4
 
    （1）LinkedHashMap是有序存放数据的
 
-
+3. JDK7中的HashMap是基于数组+链表实现的，JDK8中的HashMap是基于数组+链表/红黑树实现的
 
 ## 0x1API
 
-### 1. put
-
-
-
-###2. get
-
-
-
-### 3.
-
-
+- put(key, value)：HashMap中Key是唯一的，所以对于相同的key值，后put的value会覆盖前面的value
+- get(key)：通过key值可以获取对应的value
+- iterator：
 
 ## 0x2源码
+
+- HashMap有三个构造方法，默认构造方法中数组初始容量是16，加载因子是0.75。让initial capacity是2的幂的原因：这样在Put元素的时候产生的index更加均匀
+- HashMap采用Hash算法确定元素在集合中存放的位置
+- 为了实现一个分布尽量均匀的Hash函数，可以使用Key.hashCode()来进行，令```hash = (h = key.hashCode()) ^ (h >>> 16)``` ，```index = hash(key) & (length - 1)```，其中length是HashMap的长度，使用&运算效率比%更高
+
+
+
+
+
+> 参考：[Java8系列之重新认识HashMap](http://www.importnew.com/20386.html)
 
 
 
