@@ -121,9 +121,7 @@ public class MyCglibUtils {
     }
 ```
 
-
-
-
+//TODO
 
 # （四）AOP术语
 
@@ -137,6 +135,8 @@ Spring AOP中的行话如下：
 - Weaving织入：将增强添加到目标对象的过程，Spring采用动态代理织入
 - Proxy代理：一个类（比如UserDaompl）被AOP增强之后，产生的结果代理类（比如myProxy）
 - Aspect切面：切入点和通知的结合
+
+使用Spring框架，要做的事是编写通知(增强功能)，配置切入点
 
 > 参考：https://www.cnblogs.com/yangyquin/p/5462488.html
 
