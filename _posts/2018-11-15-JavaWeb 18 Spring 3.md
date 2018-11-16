@@ -260,18 +260,22 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 
 # （七）通知类型配置
 
-<aop: before>即是AOP中的通知配置
+< aop: before>即是AOP中的通知配置
 
 ```xml
 <aop:before method="log" pointcut="execution(public void com.mio4.demo3.CustomerDaoImpl.save())"/>
 <aop:after method="log" pointcut="execution(public void com.mio4.demo3.CustomerDaoImpl.save())"/>
 ```
 
+
+
 - 最终通知 after : 被增强方法执行之后执行
 - 前置通知 before：被增强方法执行之前执行
 - 后置通知 after-returning：如果被增强方法因为异常等没有成功执行，不会增强函数
 - 异常通知 after-throwing：只有在异常情况下执行
 - 环绕通知 around：默认情况下目标方法不会被执行，需要调用ProceedingJoinPoint手动设置
+
+
 
 ```java
     public void roundLog(ProceedingJoinPoint joinPoint) throws Throwable {
