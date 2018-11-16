@@ -33,6 +33,8 @@ AOP能做什么：
 
 # （二）JDK动态代理
 
+Spring AOP底层的实现原理是动态代理，分两种方式：JDK动态代理和Cglib动态代理
+
 > Java中的匿名内部类不常用，只在Android组件开发以及JDK动态代理时接触过
 >
 > 使用Proxy类的newProxyInstance创建动态代理对象，对类原有的方法进行增强
