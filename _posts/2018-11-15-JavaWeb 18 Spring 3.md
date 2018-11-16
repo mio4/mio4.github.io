@@ -149,6 +149,9 @@ Spring AOP中的行话如下：
 - 首先需要导入的包
 
 ```xml
+spring-aop-4.2.4.RELEASE.jar
+com.springsource.org.aopalliance-1.0.0.jar
+
 com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar
 spring-aspects-4.3.18.RELEASE.jar
 ```
