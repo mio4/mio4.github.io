@@ -68,6 +68,15 @@ slf4j-log4j12-1.7.5.jar
 </configuration>
 ```
 
+其中< mappers >标签：需要引入的配置文件，比如：
+
+```xml
+<mappers>
+    <mapper resource="User.xml" />
+    <mapper class="com.mio4.mapper.UserMapper" />
+</mappers>
+```
+
 3. 配置User.xml
 
 ```java
@@ -112,6 +121,31 @@ public void testFindUserById() throws SQLException, IOException {
 
 注意User.xml中的SQL语句使用了#{ }占位符，不是原生的SQL语句
 
+对于POJO对象，#{ }中间是POJO的私有属性，实际上是填写POJO对象和数据库对应关系
+
+比如实现一个Insert操作：
+
+```java
+public void testInsertUser() throws Exception{
+    String resource = "SqlMapConfig.xml";
+    InputStream inputStream = Resources.getResourceAsStream(resource); //读取配置文件
+    SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream); //创建SessionFactory
+    SqlSession sqlSession = sqlSessionFactory.openSession(); //创建session
+
+    User user = new User();
+    user.setUsername("mio");
+    user.setBirthday(new Date());
+    user.setSex("2");
+    user.setAddress("shanghai");
+    sqlSession.insert("test.insertUser",user);
+    sqlSession.commit();
+}
+```
+
+注意：**MyBatis中的事务会自动开启，但是需要手动提交**
+
+
+
 5. java.io.IOException: Could not find resource SqlMapConfig.xml报错
 
 在IDEA Project Structure中将Config文件夹添加为Source即可
@@ -126,6 +160,10 @@ log4j.appender.stdout=org.apache.log4j.ConsoleAppender
 log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
 log4j.appender.stdout.layout.ConversionPattern=%5p [%t] - %m%n
 ```
+
+# （二）加载Mapper
+
+> 上述代码过于冗余，适合测试，但不应该出现在正式工程中
 
 
 
