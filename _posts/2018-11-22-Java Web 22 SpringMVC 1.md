@@ -46,6 +46,7 @@ author: mio4
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+<!--配置前端控制器-->    
     <servlet>
         <servlet-name>springMVC</servlet-name>
         <servlet-class>
@@ -87,8 +88,12 @@ author: mio4
     <mvc:annotation-driven></mvc:annotation-driven>
 
     <!--配置视图解析器-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
-</beans>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/user/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    
+</beans>    
 ```
 
 4.  Controller类
@@ -130,7 +135,6 @@ public class HelloController {
 > 或者Spring4.1.3 jar 包 + JDK8 + tomcat9.0
 >
 > 备注：在尝试使用Spring 4.3.1 jar包时报错Servlet.init() for servlet [springMVC] threw exception...
->
 >
 
 在浏览器输入http://localhost:8080/demo10/hello 可以得到welcome.jsp页面
