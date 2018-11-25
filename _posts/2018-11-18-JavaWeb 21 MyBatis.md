@@ -16,7 +16,7 @@ author: mio4
 
 
 
-> 入门实现Demo，前期刷书【Spring+Mybatis企业应用实战】，中期项目实践
+
 
 # （一）Head First
 
