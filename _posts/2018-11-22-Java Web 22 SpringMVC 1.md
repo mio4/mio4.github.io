@@ -85,7 +85,7 @@ author: mio4
     <context:component-scan base-package="com.mio4"/>
     <!--配置注解驱动：-->
     <!--自动配置最新的处理映射器和处理器适配器-->
-    <mvc:annotation-driven></mvc:annotation-driven>
+    <mvc:annotation-driven/>
 
     <!--配置视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
