@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MyBatis(4)：Spring4+MyBatis3整合"
+title:  "MyBatis(5)：Spring4+MyBatis3整合"
 categories: JavaWeb
 tags:  MyBatis
 author: mio4
@@ -8,6 +8,12 @@ author: mio4
 
 * content
 {:toc}
+
+
+
+
+
+
 
 
 

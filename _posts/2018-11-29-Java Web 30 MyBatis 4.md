@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MyBatis(3)：注解开发"
+title:  "MyBatis(4)：注解开发"
 categories: JavaWeb
 tags:  MyBatis
 author: mio4
