@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MyBatis(3)£º»º´æ"
+title:  "MyBatis(3)ï¼šç¼“å­˜"
 categories: JavaWeb
 tags:  MyBatis
 author: mio4
@@ -19,34 +19,34 @@ author: mio4
 
 
 
-# £¨Ò»£©»º´æ
+# ï¼ˆä¸€ï¼‰ç¼“å­˜
 
-»º´æµÄ×÷ÓÃ£º´ÓÄÚ´æÖĞ²éÑ¯Êı¾İ£¬¶ø²»´ÓÊı¾İ¿â²éÑ¯£¬¼õÇá·şÎñÆ÷Ñ¹Á¦
+ç¼“å­˜çš„ä½œç”¨ï¼šä»å†…å­˜ä¸­æŸ¥è¯¢æ•°æ®ï¼Œè€Œä¸ä»æ•°æ®åº“æŸ¥è¯¢ï¼Œå‡è½»æœåŠ¡å™¨å‹åŠ›
 
-Ò»¼¶»º´æ£º»ùÓÚSqlSession¼¶±ğ
+ä¸€çº§ç¼“å­˜ï¼šåŸºäºSqlSessionçº§åˆ«
 
-¶ş¼¶»º´æ£º»ùÓÚMapper¼¶±ğ
-
-
-
-# £¨¶ş£©Ò»¼¶»º´æ
+äºŒçº§ç¼“å­˜ï¼šåŸºäºMapperçº§åˆ«
 
 
 
+# ï¼ˆäºŒï¼‰ä¸€çº§ç¼“å­˜
 
 
-# £¨Èı£©¶ş¼¶»º´æ
 
-1. MybatisÖĞÄ¬ÈÏ¹Ø±Õ¶ş¼¶»º´æ£¬Ê×ÏÈÔÚmybatis-config.xmlÖĞ¿ªÆô¶ş¼¶»º´æ
+
+
+# ï¼ˆä¸‰ï¼‰äºŒçº§ç¼“å­˜
+
+1. Mybatisä¸­é»˜è®¤å…³é—­äºŒçº§ç¼“å­˜ï¼Œé¦–å…ˆåœ¨mybatis-config.xmlä¸­å¼€å¯äºŒçº§ç¼“å­˜
 
 ```xml
 <settings>
-    <!--¿ªÆô¶ş¼¶»º´æ-->
+    <!--å¼€å¯äºŒçº§ç¼“å­˜-->
     <setting name="cacheEnabled" value="true"/>
 </settings>
 ```
 
-2. È»ºóÔÚXXXMapper.xmlÖĞÅäÖÃ»º´æ
+2. ç„¶ååœ¨XXXMapper.xmlä¸­é…ç½®ç¼“å­˜
 
 ```xml
 <mapper namespace="com.mio4.mapper.UserMapper">
@@ -55,8 +55,8 @@ author: mio4
 </mapper>
 ```
 
-3. ÊµÏÖ¶ş¼¶»º´æµÄPOJOÀà±ØĞëÒªÊµÏÖio.Serializable½Ó¿Ú
-4. ²âÊÔ¶ş¼¶»º´æ
+3. å®ç°äºŒçº§ç¼“å­˜çš„POJOç±»å¿…é¡»è¦å®ç°io.Serializableæ¥å£
+4. æµ‹è¯•äºŒçº§ç¼“å­˜
 
 ```java
 @Test
@@ -65,7 +65,7 @@ public void testCache2(){
     UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
     User user1 = userMapper.selectUserById(1);
     System.out.println(user1);
-    sqlSession.close(); //¹Ø±ÕÒ»¼¶»º´æ
+    sqlSession.close(); //å…³é—­ä¸€çº§ç¼“å­˜
 
     sqlSession = mySqlSessionFactory.getSqlSession();
     userMapper = sqlSession.getMapper(UserMapper.class);

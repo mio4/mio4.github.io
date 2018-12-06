@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MyBatis(5)£ºSpring4+MyBatis3ÕûºÏ"
+title:  "MyBatis(5)ï¼šSpring4+MyBatis3æ•´åˆ"
 categories: JavaWeb
 tags:  MyBatis
 author: mio4
@@ -20,5 +20,5 @@ author: mio4
 
 
 
-# £¨Ò»£©
+# ï¼ˆä¸€ï¼‰
 

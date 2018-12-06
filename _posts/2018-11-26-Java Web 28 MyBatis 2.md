@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MyBatis()：关联映射"
+title:  "MyBatis(2)：关联映射"
 categories: JavaWeb
 tags:  MyBatis
 author: mio4
