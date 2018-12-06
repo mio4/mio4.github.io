@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MyBatis()£º¹ØÁªÓ³Éä"
+title:  "MyBatis()ï¼šå…³è”æ˜ å°„"
 categories: JavaWeb
 tags:  MyBatis
 author: mio4
@@ -20,18 +20,19 @@ author: mio4
 
 
 
-# £¨Ò»£©²éÑ¯½á¹û
 
-¶ÔÓÚÊý¾Ý¿âÖÐÖ÷¼üÐÞÊÎµÄ×Ö¶Î£¬²éÑ¯µÄ½á¹ûÓÃ¶ÔÏó¡¾ÈçUser¡¿À´½ÓÊÜ
+# ï¼ˆä¸€ï¼‰æŸ¥è¯¢ç»“æžœ
 
-¶ÔÓÚ·ÇÎ¨Ò»ÐÔÔ¼ÊøµÄ×Ö¶Î¡¾ÈçÄêÁä¡¿£¬¿ÉÒÔÔ¤ÆÚ²éÑ¯µ½¶à¸ö·µ»Ø½á¹û£¬Ê¹ÓÃ¼¯ºÏ¡¾ÈçList< User >¡¿À´½ÓÊÜ
+å¯¹äºŽæ•°æ®åº“ä¸­ä¸»é”®ä¿®é¥°çš„å­—æ®µï¼ŒæŸ¥è¯¢çš„ç»“æžœç”¨å¯¹è±¡ã€å¦‚Userã€‘æ¥æŽ¥å—
+
+å¯¹äºŽéžå”¯ä¸€æ€§çº¦æŸçš„å­—æ®µã€å¦‚å¹´é¾„ã€‘ï¼Œå¯ä»¥é¢„æœŸæŸ¥è¯¢åˆ°å¤šä¸ªè¿”å›žç»“æžœï¼Œä½¿ç”¨é›†åˆã€å¦‚List< User >ã€‘æ¥æŽ¥å—
 
 ```xml
 <select id="selectUserById" parameterType="int" resultType="com.mio4.domain.User">
     SELECT * FROM TB_USER WHERE id = #{id}
 </select>
 
-<!--²âÊÔ-->
+<!--æµ‹è¯•-->
 <select id="selectUserByAge" parameterType="int" resultType="com.mio4.domain.User">
     SELECT * FROM TB_USER WHERE age = #{age}
 </select>
@@ -48,8 +49,8 @@ public interface UserMapper {
 
 
 
-# £¨¶þ£©Ò»¶ÔÒ»²éÑ¯
+# ï¼ˆäºŒï¼‰ä¸€å¯¹ä¸€æŸ¥è¯¢
 
 
 
-# £¨Èý£©Ò»¶Ô¶à²éÑ¯
+# ï¼ˆä¸‰ï¼‰ä¸€å¯¹å¤šæŸ¥è¯¢
