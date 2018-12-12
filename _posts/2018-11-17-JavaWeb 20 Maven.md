@@ -14,13 +14,24 @@ author: mio4
 
 
 
-# （一）Maven
+# （一）Hello Maven
 
-> 首先知道大概是什么，有什么好处，如何使用，有空的时候再去刷《Maven实战》
+> Maven是一个项目管理和综合工具
+
+Head First：
+
+1. 配置JAVA_HOME环境变量
+2. 解压apache-tomcat-9.0.11，配置MAVEN_HOME环境变量
+3. ```mvn -v```查看maven版本
 
 
 
+1. E:\apache-maven-3.3.9\bin\settings.xml
 
+```xml
+  <!-- 配置Maven本地仓库 -->
+  <localRepository>E:\repository</localRepository>
+```
 
 
 
