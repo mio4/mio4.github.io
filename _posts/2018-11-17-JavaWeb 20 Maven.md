@@ -37,6 +37,14 @@ Head First：
 
 
 
+> 参考 ：
+>
+>  [Maven环境配置及idea建Maven工程](https://blog.csdn.net/qq_37497322/article/details/78988378)
+>
+> [使用IntelliJ IDEA 15和Maven创建Java Web项目](https://blog.csdn.net/myarrow/article/details/50824793)
+
+
+
 
 
 
