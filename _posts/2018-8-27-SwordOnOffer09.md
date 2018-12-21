@@ -2,7 +2,7 @@
 layout: post
 title:  "链表中倒数第k个结点"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

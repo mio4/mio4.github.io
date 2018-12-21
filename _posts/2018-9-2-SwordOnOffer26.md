@@ -2,7 +2,7 @@
 layout: post
 title:  "矩阵中的路径"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

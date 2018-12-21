@@ -2,7 +2,7 @@
 layout: post
 title:  "用两个栈实现队列"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

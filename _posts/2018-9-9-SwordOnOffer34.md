@@ -2,7 +2,7 @@
 layout: post
 title:  "把数组排成最小的数"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

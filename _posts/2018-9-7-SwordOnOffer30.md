@@ -2,7 +2,7 @@
 layout: post
 title:  "表示数值的字符串"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

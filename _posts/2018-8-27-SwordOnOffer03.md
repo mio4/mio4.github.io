@@ -2,7 +2,7 @@
 layout: post
 title:  "重建二叉树"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

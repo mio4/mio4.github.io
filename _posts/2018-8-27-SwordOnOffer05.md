@@ -2,7 +2,7 @@
 layout: post
 title:  "旋转数组的最小数字"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

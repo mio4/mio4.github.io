@@ -2,7 +2,7 @@
 layout: post
 title:  "正则表达式匹配"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

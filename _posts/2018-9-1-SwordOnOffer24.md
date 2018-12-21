@@ -2,7 +2,7 @@
 layout: post
 title:  "字符串的排列"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "调整数组顺序使奇数位于偶数前面"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure 
 author: mio4
 ---
 

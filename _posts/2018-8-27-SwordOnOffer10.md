@@ -2,7 +2,7 @@
 layout: post
 title:  "反转链表"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

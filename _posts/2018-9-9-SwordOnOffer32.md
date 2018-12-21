@@ -2,7 +2,7 @@
 layout: post
 title:  "整数中1出现的次数"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

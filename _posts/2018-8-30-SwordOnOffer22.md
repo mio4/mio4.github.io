@@ -2,7 +2,7 @@
 layout: post
 title:  "和为S的两个数字"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

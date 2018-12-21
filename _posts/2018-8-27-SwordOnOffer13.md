@@ -2,7 +2,7 @@
 layout: post
 title:  "顺时针打印矩阵"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure 
 author: mio4
 ---
 

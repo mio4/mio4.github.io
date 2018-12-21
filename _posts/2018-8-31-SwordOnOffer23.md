@@ -2,7 +2,7 @@
 layout: post
 title:  "扑克牌顺子"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

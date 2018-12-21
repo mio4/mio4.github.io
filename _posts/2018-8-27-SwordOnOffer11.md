@@ -2,7 +2,7 @@
 layout: post
 title:  "合并两个排序的链表"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure 
 author: mio4
 ---
 

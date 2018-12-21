@@ -2,7 +2,7 @@
 layout: post
 title:  "二维数组中的查找"
 categories: 剑指Offer
-tags:  DataStructure Offer 
+tags:  DataStructure 
 author: mio4
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "删除链表中重复的结点"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

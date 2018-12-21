@@ -2,7 +2,7 @@
 layout: post
 title:  " 包含min函数的栈"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

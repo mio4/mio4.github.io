@@ -2,7 +2,7 @@
 layout: post
 title:  "栈的压入、弹出序列"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure 
 author: mio4
 ---
 

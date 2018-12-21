@@ -2,7 +2,7 @@
 layout: post
 title:  "二叉树的深度"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

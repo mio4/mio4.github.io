@@ -2,7 +2,7 @@
 layout: post
 title:  "机器人的运动范围"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

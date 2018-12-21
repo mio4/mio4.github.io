@@ -2,7 +2,7 @@
 layout: post
 title:  "滑动窗口的最大值"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "二叉搜索树的后序遍历序列"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

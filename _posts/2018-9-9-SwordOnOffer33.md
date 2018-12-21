@@ -2,7 +2,7 @@
 layout: post
 title:  "连续子数组的最大和"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

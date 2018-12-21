@@ -2,7 +2,7 @@
 layout: post
 title:  "翻转单词顺序列"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

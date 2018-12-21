@@ -2,7 +2,7 @@
 layout: post
 title:  "数值的整数次方"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 

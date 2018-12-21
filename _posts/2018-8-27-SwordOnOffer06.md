@@ -2,7 +2,7 @@
 layout: post
 title:  "斐波那契数列 | 跳台阶 | 矩形覆盖"
 categories: 剑指Offer  
-tags: DataStructure Offer 
+tags: DataStructure
 author: mio4
 ---
 
