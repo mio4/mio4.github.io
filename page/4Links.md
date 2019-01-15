@@ -8,25 +8,33 @@ type: page
 
 * content
 {:toc}
+# 0x0 计算机组成
+
+ [程序的编译链接过程](https://www.cnblogs.com/kekec/p/3238741.html)
+
+ [gcc的使用简介与命令行参数说明](https://www.cnblogs.com/testlife007/p/6555404.html)
 
 
 
 
-## Java基础
- - [并发编程网](http://ifeve.com/)
- - [ImportNew](http://www.importnew.com/)
- - [战小狼简书](https://www.jianshu.com/u/90ab66c248e6)
+
+# 0x1 操作系统
 
 
-## 优秀个人站点
 
-* [酷壳](https://coolshell.cn/)
-* [byvoid](https://www.byvoid.com/)
+# 0x2 JVM
 
-## 信息安全
 
-* [渗透师导航](http://www.cnblogs.com/Hooooober/)
-- [ 看雪安全论坛 ](https://bbs.pediy.com/)
+
+# 0x3 计算机网络
+
+
+
+
+
+
+
+
 
 
 ## Comments
