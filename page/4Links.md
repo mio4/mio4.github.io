@@ -1,13 +1,4 @@
----
-layout: page
-title: Collections
-permalink: /collection/
-icon: bookmark
-type: page
----
 
-* content
-{:toc}
 # 0x0 计算机组成
 
  [程序的编译链接过程](https://www.cnblogs.com/kekec/p/3238741.html)
