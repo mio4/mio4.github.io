@@ -1,3 +1,11 @@
+---
+layout: page
+title: Collections
+permalink: /collection/
+icon: bookmark
+type: page
+---
+
 
 # 0x0 计算机组成
 
