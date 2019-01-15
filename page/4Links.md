@@ -13,7 +13,9 @@ type: page
 
  [gcc的使用简介与命令行参数说明](https://www.cnblogs.com/testlife007/p/6555404.html)
 
+ [Linux内核分析——ELF文件格式分析](https://www.cnblogs.com/20135223heweiqin/p/5554922.html)
 
+[Linux及安全实践四——ELF文件格式分析](https://www.cnblogs.com/lxq20135309/p/5551658.html)
 
 
 
