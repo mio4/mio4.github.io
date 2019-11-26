@@ -9,7 +9,7 @@ cate = raw_input("input category：")
 tags = raw_input("input tags：")
 cur_time = time.strftime("%Y-%m-%d")
 
-blog = open(cur_time+'-'+name,'w')
+blog = open(cur_time+'-'+name+'.md','w')
 blog.write('---\n')
 blog.write('layout:post\n')
 blog.write('title:'+title+'\n')
