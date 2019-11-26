@@ -25,5 +25,7 @@ blog.write('\n')
 blog.write('* content\n')
 blog.write('{:toc}\n')
 
+blog.write('~~引用图片的路径 ![](https://raw.githubusercontent.com/mio4/mio4.github.io/master/pics/)~~')
+
 blog.close()
 
