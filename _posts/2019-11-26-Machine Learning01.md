@@ -29,6 +29,8 @@ author: mio4
 
 ![3](https://github.com/mio4/mio4.github.io/tree/master/pic/test.png)
 
+![4](https://raw.githubusercontent.com/mio4/mio4.github.io/master/pic/test.png)
+
 
 
 
